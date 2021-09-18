@@ -8,25 +8,25 @@ Inside the GetLines.py program other functions are called.
 This is the main function that will recive the arguments given by the user and transmit the necessary information for the remaining functions. This function recives 7 arguments, (Edges, Background, Lradius, Iradius, line_color, light_color, SavePath).
 It will also determinate the region where you want to apply the neon light effect.
 
-#### 1st argument
+### 1st argument
 The first argument is an image with the lines where we want to apply the effect, for this to work properly the lines need to be on a black background. To get this lines I use normally use the cv2.Canny() funtion but other methods can be used.
 
-#### 2nd argument
+### 2nd argument
 The second argument is the background where you want to put the neon light.
 
-#### 3rd argument
+### 3rd argument
 The third argument is the size of line that will the center and source of the neon light, if 1 (px) is given the actual size will be 2 (px). This needs to be an integer.
 
-#### 4th argument
+### 4th argument
 The fourth argument is the size of inner glow if 1 (px) the actual size will be 1 (px).
 
-#### 5th argument
+### 5th argument
 The fifth argument is the color of the source of light, white is recommended, but it can support a list of colors and even a list of colors created using the colour library. The format of each individual the color must be [.. , .. , ..].
 
-#### 6th argument
+### 6th argument
 The sixth argument is the color of the inner and outer glow, it supports only one color, a list of colors and a list of colors create using the colour library. The format of each individual the color must be [.. , .. , ..].
 
-#### 7th argument
+### 7th argument
 The seventh argument is th path to place where the different will images will be saved and final result. It needs to be a string
 
 ## InnerGlow
