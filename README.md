@@ -1,5 +1,5 @@
 # Python-CV-Neon-Light-effect
-This pack of codes will give a neon light effect to your images.
+This is a set of codes poorly optimize and without any error handling, feel free to improve it and teach me how, the main purpouse is to give a neon light effect to your images, and it foes just that. The neon effect can be improved by changing some paramenters in the functions so feel free to do so.
 For this to work you need to have Photoshop installed on your computer.
 There are 5 functions to make this possible, all of them need to be on your computer but you only need to call the GetLines function.
 Inside the GetLines.py program other functions are called.
