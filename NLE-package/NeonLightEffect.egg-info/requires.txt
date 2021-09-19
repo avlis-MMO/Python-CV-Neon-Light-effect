@@ -1,0 +1,4 @@
+Numpy
+opencv-python
+colour
+comtypes
