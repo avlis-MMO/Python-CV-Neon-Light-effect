@@ -1,8 +1,0 @@
-[build-system]
-requires = [
-    'Numpy',
-    'opencv-python',
-    'colour',
-    'comtypes'
-]
-build-backend = "setuptools.build_meta"
